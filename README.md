@@ -67,7 +67,7 @@ project_root/
 
 3. Start the application using Docker Compose:
    ```
-   docker-compose -f docker-compose-local.yml up -d
+   docker-compose -f docker-compose-local.yml up --build
    ```
 
 ### Local Installation
