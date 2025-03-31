@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+.env
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Vector database files
+# We're not ignoring the ChromaDB files since we want to include them in the repo
+# *.faiss
+# *.pkl
+
+# API keys and sensitive information
+# .env is commented out to include the template in the repo
+.env
